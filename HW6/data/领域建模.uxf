@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>30</y>
+      <w>190</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Reservation
+--
+Revervation_ID
+Total
+Username
+In_Name_Of
+Hotel_ID
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>30</y>
+      <w>190</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Traveler
+--
+UserName
+Password
+FullName
+Sex
+Email_Address
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>380</y>
+      <w>190</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Hotel
+--
+Hotel_ID
+Name
+City
+Detail_Address
+Check_In_Date
+Check_Out_Date
+Room_IDs
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>680</y>
+      <w>190</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Room
+--
+Hotel_ID
+Room_ID
+Type
+Adult_Number
+Children_Number
+Child_Age_Min
+Child_Age_Max
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>170</y>
+      <w>40</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+m1=1
+m2=1
+In</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>530</y>
+      <w>50</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+m1=1
+m2=1..n
+In</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>90</y>
+      <w>300</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+m1=1
+m2=1..n
+make</panel_attributes>
+    <additional_attributes>280.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1070</x>
+      <y>30</y>
+      <w>190</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Payment
+--
+Payment_ID
+Reservation_ID
+Card_Number
+Full_Name
+Total
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1460</x>
+      <y>30</y>
+      <w>190</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Credit_Card
+--
+Card_Number
+Card_Security_code
+Card_Holder_ID
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1460</x>
+      <y>310</y>
+      <w>190</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Card_Holder
+--
+Card_Holder_ID
+First_name
+Last_Name
+Address1
+Address2
+City
+Country
+PostCode
+Daytime_Telephone
+EveningTime_Telephone
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1250</x>
+      <y>90</y>
+      <w>230</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>m1=1
+m2=1
+use</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1540</x>
+      <y>170</y>
+      <w>50</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+m1=1
+m2=1..n
+own</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
