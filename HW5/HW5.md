@@ -6,7 +6,7 @@
 ![UML_part1](data/UML_part1.JPG)
 ![UML_part2](data/UML_part2.JPG)
 
-### 给出 make reservation 用例的活动图
+#### 给出 make reservation 用例的活动图
 ![UML_Activity_part1](data/UML_Activity_part1.JPG)
 ![UML_Activity_part2](data/UML_Activity_part2.JPG)
 
@@ -24,7 +24,7 @@
 
 ![scene3](data/scene3.JPG)
 
-### 根据上述流程，给出快递柜系统最终的用例图模型
+#### 根据上述流程，给出快递柜系统最终的用例图模型
 
 1) 用正常色彩表示第一个业务流程反映的用例
 
